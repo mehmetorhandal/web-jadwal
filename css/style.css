@@ -3,6 +3,7 @@ body {
     color: #24356D;
   }
 
+
 .btn {
     border-radius:.125rem;
 }
@@ -50,7 +51,7 @@ body {
     background-position: top right;
     top:0;
     right:0;
-    height: 1500px;
+    height: 1800px;
     width: 100%;
 }
 
@@ -227,6 +228,10 @@ body {
     padding: 2rem 0rem 2rem 1rem;
 }
 
+
+.bg-radius-left {
+    border-top-left-radius: 50%;
+}
 /* Cloud animation*/
 
 
@@ -238,3 +243,93 @@ body {
     top: 10%;
 }
 
+
+.styled-list li {
+    list-style-image: url(/images/check-circle.svg);
+}
+
+
+
+
+ /* Equal Hight CSS */
+
+ .row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+
+  
+  
+
+
+
+ /* Equal Hight End */
+
+
+  /*Media Queries*/
+
+  @media (max-width: 1024px){
+ 
+
+    .display-4{
+        font-size:3rem;
+    }
+
+      .scrolling-wrapper{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-left: 1rem;
+        -webkit-overflow-scrolling: touch;
+        
+      }
+
+      .scrolling-wrapper::-webkit-scrollbar {
+        display: none;
+      }
+    .product-card-deck  {
+    flex-flow: nowrap;
+    justify-content: flex-start !important;
+    width: 100%;
+ 
+
+        }
+  }
+
+  @media (max-width:768px) {
+    .product-hero-image {
+        position:relative;
+        text-align: right;
+    }
+
+  
+
+    .layer-3{
+        width: 100%;
+    }
+  }
+
+  @media (min-width:768px) and (max-width: 1024px) {
+    .layer-3{
+        width: 100%;
+    }
+
+  }
+
+  @media (max-width: 540px){
+      body {
+          text-align: center;
+      }
+      .layer-3{
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    .display-4{
+        font-size: 2.5rem;
+    }
+  }
