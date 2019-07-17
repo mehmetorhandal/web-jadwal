@@ -43,7 +43,7 @@ body {
 }
 
 .bg-effect {
-    background: url(images/background-image.svg) no-repeat;
+    background: url(../images/background-image.svg) no-repeat;
     background-size: cover;
     position:absolute;
 }
@@ -111,7 +111,7 @@ body {
     content: '';
     width: 18px;
     height: 18px;
-    background-image: url(images/arrow-icon.svg);
+    background-image: url(../images/arrow-icon.svg);
     vertical-align: middle;
     background-size: contain;
     background-position: center center;
@@ -151,7 +151,7 @@ body {
 }
 
 .footer-bottom-image{
-    background-image: url(images/footer-decoration.png);
+    background-image: url(../images/footer-decoration.png);
     background-position: center;
     bottom: calc(100% - 420px);
     height: 300px;
@@ -165,7 +165,7 @@ body {
 }
 
 .footer-top-image{
-    background-image: url(images/footer-decoration.png);
+    background-image: url(../images/footer-decoration.png);
     background-position: right;
     top: -170px;
     height: 300px;
@@ -198,7 +198,7 @@ body {
 }
 
 .aiclass-background {
-    background: url(images/background-image-aiclass.svg) no-repeat;
+    background: url(../images/background-image-aiclass.svg) no-repeat;
     background-size: cover;
     position: absolute;
     background-position: top left;
@@ -245,7 +245,7 @@ body {
 
 
 .styled-list li {
-    list-style-image: url(images/check-circle.svg);
+    list-style-image: url(../images/check-circle.svg);
 }
 
 
