@@ -17,16 +17,20 @@
 </head>
 <body>
     <div class="container">
+        <nav class="navbar navbar-light px-0 shadow-disable d-md-none d-block">          
+            <a class="navbar-brand d-inline-block align-top" href="index.html"><img height="36" src="images/jadwal-logo.svg" /></a>
+      </nav>
+
         <div class="row min-vh-100 no-gutters">
-        <div class="col-md-7">
+        <div class="col-lg-6 order-2 order-md-1">
        
-        <nav class="navbar navbar-light px-0 shadow-disable">
+        <nav class="navbar navbar-light px-0 shadow-disable d-md-block d-none">
            
                         <a class="navbar-brand d-inline-block align-top" href="index.html"><img height="36" src="images/jadwal-logo.svg" /></a>
               
-            </nav>
+        </nav>
            
-                <div class="mt-5 pr-3">
+                <div class="mt-5 pr-3 text-left">
                         <div class="media">
                                 <img src="images/access.svg" class="align-self-start mr-3" alt="...">
                                 <div class="media-body">
@@ -54,11 +58,11 @@
                                 </div>
                         </div>
                 
-                    </div>
+                </div>
 
        
          </div>
-         <div class="col-md-5 d-flex flex-column justify-content-start p-4 light-blue-bg">
+         <div class="col-lg-6 order-1 order-md-2 d-flex flex-column justify-content-start p-4 light-blue-bg">
                 <h1 class=" font-weight-light my-5">Schedule a Demo</h1>
                 <form class="needs-validation" novalidate>
                         <div class="form-row ">
@@ -104,27 +108,28 @@
     <div class="container-fluid border-top position-relative overflow-hidden">
         <div class="footer-bottom-image"></div>
         <div class="container">
-    <div class="footer d-flex py-5">
-        <div class="col-md-8">
-                <img src="images/logo-with-support.svg" class="img-fluid" alt="Responsive image">
-            </div>
-        <div class="col-md-2">
-            <h5 class="font-weight-bold">SOLUTIONS</h5>
-            <ul class="list-unstyled links">
-                <li><a href="#">aiExam</a></li>
-                <li><a href="#">aiClass</a></li>
-                <li><a href="#">aiEvent</a></li>
-            </ul>
-        </div>
-        <div class="col-md-2">
-                <h5 class="font-weight-bold">CONTACT US</h5>
+          <div class="footer d-flex py-5 flex-sm-row flex-column">
+            <div class=" col-xl-8 col-lg-7 order-3 order-sm-1">
+                    <img src="images/logo-with-support.svg" class="img-fluid d-none d-sm-block" alt="Responsive image">
+                    <img src="images/logo-with-support-mobile.svg" class="img-fluid  d-block d-sm-none mt-4" alt="Responsive image">
+                </div>
+            <div class="col-xl-2 col-lg-3 order-1 order-sm-2">
+                <h5 class="font-weight-bold">SOLUTIONS</h5>
                 <ul class="list-unstyled links">
-                    <li><a href="#">hi@jadwal.ai</a></li>
-                    <li><a href="#">(+971) 56 896 7479</a></li>
-                    <li><a href="#"> <a href="#"><img src="images/facebook-square.svg"></a> <a href="#"><img src="images/linkedin.svg"></a></li>
+                    <li><a href="#">aiExam</a></li>
+                    <li><a href="#">aiClass</a></li>
+                    <li><a href="#">aiEvent</a></li>
                 </ul>
+            </div>
+            <div class="col-xl-2 col-lg-3 order-2 order-sm-3">
+                    <h5 class="font-weight-bold">CONTACT US</h5>
+                    <ul class="list-unstyled links">
+                        <li><a href="#">hi@jadwal.ai</a></li>
+                        <li><a href="#">(+971) 56 896 7479</a></li>
+                        <li><a href="#"> <a href="#"><img src="images/facebook-square.svg"></a> <a href="#"><img src="images/linkedin.svg"></a></li>
+                    </ul>
+            </div>
         </div>
-    </div>
         </div>
     </div>
 
