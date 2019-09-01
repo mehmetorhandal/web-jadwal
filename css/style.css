@@ -25,7 +25,7 @@ body {
 }
 
 .light-blue-bg{
-    background-color:#F4F9FE;
+    background-color:#F4F9FE !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
